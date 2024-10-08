@@ -61,14 +61,4 @@ UI_CN = {
     ---- ProximityInventory ----
     UI_optionscreen_binding_ProximityInventory = "融合物品栏",
     UI_optionscreen_binding_ProxInv_Force_Selected = "开/关强制选中",
-
-    UI_ProxInv_InventoryName = "融合物品栏",
-    UI_ProxInv_Tooltip_ToggleOn = "右键打开设定",
-    UI_ProxInv_Tooltip_ToggleOff = "[功能已关闭]右键打开设定",
-    UI_ProxInv_Context_ToggleOn = "融合物品栏[开启]",
-    UI_ProxInv_Context_ToggleOff = "融合物品栏[关闭]",
-    UI_ProxInv_Context_ForceSelectOn = "强制选中[开启]",
-    UI_ProxInv_Context_ForceSelectOff = "强制选中[关闭]",
-    UI_ProxInv_Context_HighlightOn = "容器高亮[开启]",
-    UI_ProxInv_Context_HighlightOff = "容器高亮[关闭]",
 }

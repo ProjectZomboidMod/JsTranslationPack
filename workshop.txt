@@ -1,6 +1,5 @@
 version=1
 id=3345241694
-title=Js' Translation Pack
+title=Js' Tweaks
 description=WIP
-tags=Language/Translation
 visibility=public

@@ -17,7 +17,7 @@ Sandbox_CN = {
     -- Sandbox_AutoDrop_ContextualInhibiter_tooltip = "Context menu allows to inhibit any kind of container.",
 
     ---- ProximityInventory ----
-    Sandbox_ProxInv = "融合物品栏",
-    Sandbox_ZombieOnly = "Zombie Only Mode",
-    Sandbox_ZombieOnly_tooltip = "Enable this if you want the Proximity Inventory to work only on zombies",
+    -- Sandbox_ProxInv = "Proximity Inventory",
+    -- Sandbox_ZombieOnly = "Zombie Only Mode",
+    -- Sandbox_ZombieOnly_tooltip = "Enable this if you want the Proximity Inventory to work only on zombies",
 }

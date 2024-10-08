@@ -3,23 +3,23 @@ print("Patching ProximityInventory")
 
 ProxInv.getTooltip = function()
     if ProxInv.isToggled then
-        return getText("UI_ProxInv_Tooltip_ToggleOn")
+        return getText("IGUI_ProxInv_Tooltip_ToggleOn")
     else
-        return getText("UI_ProxInv_Tooltip_ToggleOff")
+        return getText("IGUI_ProxInv_Tooltip_ToggleOff")
     end
 end
 
-local textToggleOn = getText("UI_ProxInv_Context_ToggleOn")
-local textToggleOff = getText("UI_ProxInv_Context_ToggleOff")
-local textForceSelectOn = getText("UI_ProxInv_Context_ForceSelectOn")
-local textForceSelectOff = getText("UI_ProxInv_Context_ForceSelectOff")
-local textHighlightOn = getText("UI_ProxInv_Context_HighlightOn")
-local textHighlightOff = getText("UI_ProxInv_Context_HighlightOff")
+local textToggleOn = getText("IGUI_ProxInv_Context_ToggleOn")
+local textToggleOff = getText("IGUI_ProxInv_Context_ToggleOff")
+local textForceSelectOn = getText("IGUI_ProxInv_Context_ForceSelectOn")
+local textForceSelectOff = getText("IGUI_ProxInv_Context_ForceSelectOff")
+local textHighlightOn = getText("IGUI_ProxInv_Context_HighlightOn")
+local textHighlightOff = getText("IGUI_ProxInv_Context_HighlightOff")
 local iconToggleOn = ProxInv.inventoryIcon
 local iconToggleOff = nil
 local iconForceSelectOn = getTexture("media/ui/Panel_Icon_Pin.png")
 local iconForceSelectOff = nil
-local iconHighlightOn = getTexture("media/ui/light_bulb_on.png")
+local iconHighlightOn = getTexture("media/textures/Item_LightBulb.png")
 local iconHighlightOff = nil
 ProxInv.populateContextMenuOptions = function(context)
     local textToggle = ProxInv.isToggled and textToggleOn or textToggleOff
@@ -38,7 +38,7 @@ end
 local ISInventoryPage_addContainerButton = ISInventoryPage.addContainerButton
 function ISInventoryPage:addContainerButton(container, texture, name, tooltip)
     if texture == ProxInv.inventoryIcon and name == "Proximity Inv" then
-        name = getText("UI_ProxInv_InventoryName")
+        name = getText("IGUI_ProxInv_InventoryName")
     end
     return ISInventoryPage_addContainerButton(self, container, texture, name, tooltip)
 end
