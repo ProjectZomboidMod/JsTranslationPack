@@ -1,0 +1,12 @@
+UI_EN = {
+    ---- ProximityInventory ----
+    UI_ProxInv_InventoryName = "Proximity Inv",
+    UI_ProxInv_Tooltip_ToggleOn = "Right click for settings",
+    UI_ProxInv_Tooltip_ToggleOff = "Disabled - Right click for settings",
+    UI_ProxInv_Context_ToggleOn = "Toggle OFF",
+    UI_ProxInv_Context_ToggleOff = "Toggle ON",
+    UI_ProxInv_Context_ForceSelectOn = "Disable Force Selected",
+    UI_ProxInv_Context_ForceSelectOff = "Enable Force Selected",
+    UI_ProxInv_Context_HighlightOn = "Disable Highlight",
+    UI_ProxInv_Context_HighlightOff = "Enable Highlight",
+}
